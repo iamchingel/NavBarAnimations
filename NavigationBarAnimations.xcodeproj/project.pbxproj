@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		19856E6B1FBC97FA00D4F8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19856E6A1FBC97FA00D4F8EE /* AppDelegate.swift */; };
-		19856E6D1FBC97FA00D4F8EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19856E6C1FBC97FA00D4F8EE /* ViewController.swift */; };
 		19856E701FBC97FA00D4F8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19856E6E1FBC97FA00D4F8EE /* Main.storyboard */; };
 		19856E721FBC97FA00D4F8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19856E711FBC97FA00D4F8EE /* Assets.xcassets */; };
 		19856E751FBC97FA00D4F8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19856E731FBC97FA00D4F8EE /* LaunchScreen.storyboard */; };
+		19856E7D1FBC995600D4F8EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19856E7C1FBC995600D4F8EE /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19856E671FBC97FA00D4F8EE /* NavigationBarAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19856E6A1FBC97FA00D4F8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19856E6C1FBC97FA00D4F8EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19856E6F1FBC97FA00D4F8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19856E711FBC97FA00D4F8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19856E741FBC97FA00D4F8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19856E761FBC97FA00D4F8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19856E7C1FBC995600D4F8EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				19856E6A1FBC97FA00D4F8EE /* AppDelegate.swift */,
-				19856E6C1FBC97FA00D4F8EE /* ViewController.swift */,
+				19856E7C1FBC995600D4F8EE /* TableViewController.swift */,
 				19856E6E1FBC97FA00D4F8EE /* Main.storyboard */,
 				19856E711FBC97FA00D4F8EE /* Assets.xcassets */,
 				19856E731FBC97FA00D4F8EE /* LaunchScreen.storyboard */,
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19856E6D1FBC97FA00D4F8EE /* ViewController.swift in Sources */,
 				19856E6B1FBC97FA00D4F8EE /* AppDelegate.swift in Sources */,
+				19856E7D1FBC995600D4F8EE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +275,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4H33JVA49;
 				INFOPLIST_FILE = NavigationBarAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Chingel.NavigationBarAnimations;
+				PRODUCT_BUNDLE_IDENTIFIER = Chingel.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +290,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4H33JVA49;
 				INFOPLIST_FILE = NavigationBarAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Chingel.NavigationBarAnimations;
+				PRODUCT_BUNDLE_IDENTIFIER = Chingel.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
